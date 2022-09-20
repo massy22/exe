@@ -1,0 +1,43 @@
+- id: Search
+  translation: 検索
+
+- id: Edit this page
+  translation: このページを編集する
+
+- id: Last modified by
+  translation: 最終更新者
+
+- id: Expand
+  translation: 展開
+
+# see: https://d3.haro.jp/docs/2021/flexsearch/
+- id: bookSearchConfig
+  translation: |
+    {
+      encode: false,
+      tokenize: function(str) {
+        if (!str) return [];
+         const splitedTexts = str
+           // 処理前にアルファベットを小文字に変換
+           .toLowerCase()
+           // 漢字、カナ、半角英数の連続する塊を切り出し
+           // かなと全角英数は対象外
+           .match(/[一-龠]+|[ァ-ヴー]+|[a-z0-9]+/g);
+         if (!splitedTexts) return [];
+         const mappedTexts = splitedTexts
+           .filter((word) => word.length > 1)
+           // 半角英数の場合、前方一致検索ができるように処理
+           .map((word) => {
+             if (word.match(/[a-z0-9]+/g)) {
+               let token = '';
+               return Array.from(word)
+                 .map((char) => (token += char))
+                 .filter((token) => token.length > 1);
+             } else {
+               return word;
+             }
+           });
+         const flatted = mappedTexts.flat();
+         return [...new Set(flatted)];
+      }
+    }
