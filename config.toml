@@ -4,6 +4,9 @@ baseURL = 'https://example.com/'
 title = 'Hugo Book'
 theme = 'hugo-book'
 
+# Language Configuration
+defaultContentLanguage = "ja"
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
@@ -21,20 +24,10 @@ enableGitInfo = true
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 [languages]
-[languages.en]
-  languageName = 'English'
+[languages.ja]
+  languageName = 'Japanese'
   contentDir = 'content'
   weight = 1
-
-[languages.ru]
-  languageName = 'Russian'
-  contentDir = 'content.ru'
-  weight = 2
-
-[languages.zh]
-  languageName = 'Chinese'
-  contentDir = 'content.zh'
-  weight = 3
 
 [menu]
 # [[menu.before]]
