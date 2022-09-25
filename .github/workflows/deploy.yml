@@ -47,4 +47,4 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }} # FTPのパスワードを設定
           LOCAL_DIR: public                         # どのディレクトリのデータをアップロードするか
           REMOTE_DIR: /public_html/chipcom.org/exe  # FTPサーバのどのディレクトリにアップロードするか
-          ARGS: --delete
+          ARGS: --delete  --parallel=10
