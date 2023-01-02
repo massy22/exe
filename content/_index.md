@@ -9,7 +9,6 @@ type: docs
 [CHIPCOM](https://chipcom.org/) というウェブサイトの一部です。
 
 ## Contributing
-
-小さな誤字/脱字/スペルミスについてでも、Issue や Pull Request を歓迎しています。
+[このウェブサイトのソースコードは GitHub で管理している](https://github.com/massy22/exe/) ため、GitHubアカウントを持つ方であれば、誰でもかんたんにソースコードの変更を提案することができます。
 
 コントリビュートの方法や確認方法については、[CONTRIBUTING.md](https://github.com/massy22/exe/blob/main/CONTRIBUTING.md) を参照してください。
