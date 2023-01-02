@@ -1,10 +1,10 @@
 # Contribution Guide
 
-このサイトへのコントリビュート方法についてのガイドです。
+このウェブサイトへのコントリビュート方法についてのガイドです。
 
 ## Hugo
 
-このサイトは [Hugo](https://gohugo.io/) で作成されています。
+このウェブサイトは [Hugo](https://gohugo.io/) で作成されています。
 また、文章は Markdown で書かれています。Markdown の記法については、[Learn Markdown](https://gohugo.io/content-management/formats/#learn-markdown) を参照してください。
 
 ## Pull Request
