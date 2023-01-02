@@ -8,6 +8,6 @@ https://chipcom.org/exe/
 [CHIPCOM](https://chipcom.org/) というウェブサイトの一部です。
 
 ## Contributing
-[このウェブサイトのソースコードは GitHub で管理している](https://github.com/massy22/exe/) ため、GitHubアカウントを持つ方であれば、誰でもかんたんにソースコードの変更を提案することができます。
+小さな誤字/脱字/スペルミスについてでも、Issue や Pull Request を歓迎しています。
 
 コントリビュートの方法や確認方法については、[CONTRIBUTING.md](./CONTRIBUTING.md) を参照してください。
