@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: ロックマンエグゼシリーズ攻略
 type: docs
 ---
 
