@@ -11,6 +11,8 @@ defaultContentLanguage = "ja"
 disablePathToLower = true
 enableGitInfo = true
 
+googleAnalytics = "UA-1238840-1"
+
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
