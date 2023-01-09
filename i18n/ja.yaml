@@ -20,9 +20,9 @@
          const splitedTexts = str
            // 処理前にアルファベットを小文字に変換
            .toLowerCase()
-           // 漢字、カナ、半角英数の連続する塊を切り出し
-           // かなと全角英数は対象外
-           .match(/[一-龠]+|[ァ-ヴー]+|[a-z0-9]+/g);
+           // 漢字、かな、カナ、半角英数の連続する塊を切り出し
+           // 全角英数は対象外
+           .match(/[一-龠]+|[ぁ-んー]+|[ァ-ヴー]+|[a-z0-9]+/g);
          if (!splitedTexts) return [];
          const mappedTexts = splitedTexts
            .filter((word) => word.length > 1)
