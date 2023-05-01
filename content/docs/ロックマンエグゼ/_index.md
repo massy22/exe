@@ -1,4 +1,8 @@
 ---
 bookCollapseSection: true
-weight: 20
+weight: 10
 ---
+
+# ロックマンエグゼ
+
+{{<suzaku-section>}}
