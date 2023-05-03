@@ -54,7 +54,7 @@ hugo server
 ## ディレクトリ構造
 
 `content/docs/タイトル名` 下にページ毎にディレクトリを切り、
-その下に markdown(`_index.md`)、リソース(`img/`) などを配置して扱います。
+その下に markdown(`_index.md`)、リソース(`sample.jpg`、`sample.csv`) などを配置して扱います。
 
 ```
 └── content
@@ -65,5 +65,6 @@ hugo server
         ├── ロックマンエグゼ2
         │   └── バトルチップ
         │       ├──_index.md
-        │       └── img
+        │       ├── sample.jpg
+        │       └── sample.csv
 ```
