@@ -4,7 +4,7 @@
 
 ## Hugo
 
-このウェブサイトは [Hugo](https://gohugo.io/) で作成されています。
+このウェブサイトは [Hugo](https://gohugo.io/) で作成されています。<br />
 また、文章は Markdown で書かれています。Markdown の記法については、[Learn Markdown](https://gohugo.io/content-management/formats/#learn-markdown) を参照してください。
 
 ## Pull Request
@@ -13,7 +13,7 @@ Pull Request はいつでも歓迎しています。
 
 **受け入れる Pull Request**
 
-次の種類の Pull Request を受け付けています。
+次の種類の Pull Request を受け付けています。<br />
 基本的な Pull Request（特に細かいもの）は、Issue を立てずに Pull Request を送ってもらって問題ありません。
 
 「このような修正/改善はどうでしょう？」という疑問がある場合は、Issue を立てて相談してください。
@@ -22,7 +22,7 @@ Pull Request はいつでも歓迎しています。
 - 別の説明方法の提案や修正
 - 文章をわかりやすくするように改善
 
-:memo: **Note:** Pull Request を受け入れるとあなたの貢献が [Contributorsリスト](https://github.com/massy22/exe/graphs/contributors) に追加されます。
+:memo: **Note:** Pull Request を受け入れるとあなたの貢献が [Contributorsリスト](https://github.com/massy22/exe/graphs/contributors) に追加されます。<br />
 これは、あなたの貢献がこのウェブサイトへの努力的な寄付となることを意味しています。
 
 ## 修正の送り方
@@ -42,8 +42,8 @@ Pull Request はいつでも歓迎しています。
 
 ## 修正の確認方法
 
-このウェブサイトは [Hugo](https://gohugo.io/) で作成されています。
-`hugo server` を実行後、[http://localhost:1313/exe/](http://localhost:1313/exe/) へアクセスすることで、ウェブサイトのプレビュー表示ができます。
+このウェブサイトは [Hugo](https://gohugo.io/) で作成されています。<br />
+`hugo server` を実行後、[http://localhost:1313/exe/](http://localhost:1313/exe/) へアクセスすることで、ウェブサイトのプレビュー表示ができます。<br />
 hugo のインストール方法については、[Installation](https://gohugo.io/installation/) を参照してください。
 
 ```
@@ -68,3 +68,8 @@ hugo server
         │       ├── sample.jpg
         │       └── sample.csv
 ```
+
+## csvファイルの編集方法
+
+csvファイルは文字コードUTF-8(BOMなし)、改行コードLFで作成していますので、 編集の際は [CSV+](https://www.plus-one.tech/csv-plus/) の利用を推奨します。<br />
+本ソフトで編集すると末尾に改行が入りますが、Hugo的には無視してくれるみたいです。
