@@ -1,0 +1,24 @@
+{{/*
+  CSVファイルをテーブル表示
+*/}}
+
+{{- $path := .Get 0 }}
+
+<table>
+  {{- range $i, $record := getCSV "," $path }}
+  {{- if eq $i 0 }}
+  <tr>
+    {{- range $record }}
+    <th>{{- partial "suzaku-replace-newline" . -}}</th>
+    {{- end }}
+  </tr>
+  {{- end }}
+  {{- if gt $i 0 }}
+  <tr>
+    {{- range $record }}
+    <td>{{- partial "suzaku-replace-newline" . -}}</td>
+    {{- end }}
+  </tr>
+  {{- end }}
+  {{- end }}
+</table>

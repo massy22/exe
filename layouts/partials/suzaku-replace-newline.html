@@ -1,0 +1,8 @@
+{{/*
+  改行文字を改行タグに置換
+*/}}
+
+{{- $values := split . "\n" }}
+{{- range $i, $v := $values }}
+  {{- if eq $i 0 }}{{ $v }}{{ else }}<br />{{ $v }}{{ end -}}
+{{- end -}}
