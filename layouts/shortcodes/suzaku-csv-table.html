@@ -9,14 +9,14 @@
   {{- if eq $i 0 }}
   <tr>
     {{- range $record }}
-    <th>{{- replace . "\n" "<br />" | htmlUnescape | safeHTML -}}</th>
+    <th>{{- replace . "\n" "<br />" | safeHTML -}}</th>
     {{- end }}
   </tr>
   {{- end }}
   {{- if gt $i 0 }}
   <tr>
     {{- range $record }}
-    <td>{{- replace . "\n" "<br />" | htmlUnescape | safeHTML -}}</td>
+    <td>{{- replace . "\n" "<br />" | safeHTML -}}</td>
     {{- end }}
   </tr>
   {{- end }}
