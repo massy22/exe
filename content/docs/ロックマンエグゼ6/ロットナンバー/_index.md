@@ -6,16 +6,16 @@ weight: 2
 
 ## バトルチップ
 
-{{<suzaku-csv-table "csv/exe6/ロットナンバー/バトルチップ.csv">}}
+{{<suzaku-csv-table "content/docs/ロックマンエグゼ6/ロットナンバー/バトルチップ.csv">}}
 
 ## ナビカスパーツ
 
-{{<suzaku-csv-table "csv/exe6/ロットナンバー/ナビカスパーツ.csv">}}
+{{<suzaku-csv-table "content/docs/ロックマンエグゼ6/ロットナンバー/ナビカスパーツ.csv">}}
 
 ## スピンパーツ
 
-{{<suzaku-csv-table "csv/exe6/ロットナンバー/スピンパーツ.csv">}}
+{{<suzaku-csv-table "content/docs/ロックマンエグゼ6/ロットナンバー/スピンパーツ.csv">}}
 
 ## サブチップ
 
-{{<suzaku-csv-table "csv/exe6/ロットナンバー/サブチップ.csv">}}
+{{<suzaku-csv-table "content/docs/ロックマンエグゼ6/ロットナンバー/サブチップ.csv">}}
