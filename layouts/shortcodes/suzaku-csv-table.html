@@ -9,14 +9,14 @@
   {{- if eq $i 0 }}
   <tr>
     {{- range $record }}
-    <th>{{- partial "suzaku-replace-newline" . -}}</th>
+    <th>{{- replace . "\n" "<br />" | htmlUnescape | safeHTML -}}</th>
     {{- end }}
   </tr>
   {{- end }}
   {{- if gt $i 0 }}
   <tr>
     {{- range $record }}
-    <td>{{- partial "suzaku-replace-newline" . -}}</td>
+    <td>{{- replace . "\n" "<br />" | htmlUnescape | safeHTML -}}</td>
     {{- end }}
   </tr>
   {{- end }}
