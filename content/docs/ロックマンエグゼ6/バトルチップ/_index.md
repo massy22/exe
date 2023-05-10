@@ -1,6 +1,6 @@
 ---
 bookCollapseSection: false
-weight: 2
+weight: 10
 ---
 
 # バトルチップ
