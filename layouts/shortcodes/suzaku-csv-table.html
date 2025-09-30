@@ -3,9 +3,11 @@
 */}}
 
 {{- $path := .Get 0 }}
+{{- $res := resources.Get $path }}
+{{- $rows := cond (ne $res nil) ($res | transform.Unmarshal (dict "delimiter" ",")) (slice) }}
 
 <table>
-  {{- range $i, $record := getCSV "," $path }}
+  {{- range $i, $record := $rows }}
   {{- if eq $i 0 }}
   <tr>
     {{- range $record }}

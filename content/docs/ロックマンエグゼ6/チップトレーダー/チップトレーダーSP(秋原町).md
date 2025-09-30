@@ -16,4 +16,4 @@ weight: 22
 | ☆☆☆☆   | 0                               |
 | ☆☆☆☆☆  | 0                               |
 
-{{<suzaku-csv-table "content/docs/ロックマンエグゼ6/チップトレーダー/チップトレーダーSP(秋原町).csv">}}
+{{<suzaku-csv-table "docs/ロックマンエグゼ6/チップトレーダー/チップトレーダーSP(秋原町).csv">}}

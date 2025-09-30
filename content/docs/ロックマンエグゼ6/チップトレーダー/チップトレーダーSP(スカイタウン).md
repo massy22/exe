@@ -14,4 +14,4 @@ weight: 21
 | ☆☆☆☆   | 11                 |
 | ☆☆☆☆☆  | 0                  |
 
-{{<suzaku-csv-table "content/docs/ロックマンエグゼ6/チップトレーダー/チップトレーダーSP(スカイタウン).csv">}}
+{{<suzaku-csv-table "docs/ロックマンエグゼ6/チップトレーダー/チップトレーダーSP(スカイタウン).csv">}}

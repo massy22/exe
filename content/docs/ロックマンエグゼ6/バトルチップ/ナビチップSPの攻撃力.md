@@ -31,5 +31,5 @@ bookToC: false
 | 0:26:01～028:00  | 2      |
 | 0:28:01～9:59:99 | 1      |
 
-{{<suzaku-csv-table "content/docs/ロックマンエグゼ6/バトルチップ/ナビチップSPの攻撃力.csv">}}
+{{<suzaku-csv-table "docs/ロックマンエグゼ6/バトルチップ/ナビチップSPの攻撃力.csv">}}
 
