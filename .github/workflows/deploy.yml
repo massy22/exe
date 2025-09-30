@@ -23,25 +23,25 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: recursive
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.99.1'
+          hugo-version: '0.150.1'
           extended: true
-          
+
       - name: Build
         run: hugo --minify
-        
+
       - name: List output files
         run: ls public/
 
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@2.0.0   # FTPを使ってサーバーにDeployするアクションを実行
-        env:                                        
+        env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}     # FTPサーバーのURLを設定
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }} # FTPのユーザー名を設定
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }} # FTPのパスワードを設定
